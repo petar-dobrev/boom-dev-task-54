@@ -27,3 +27,15 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid-item {
+  width: 200px;
+  aspect-ratio: 1;
+  background-color: olive;
+}
